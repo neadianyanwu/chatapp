@@ -125,23 +125,19 @@
 }
 
 /* Section: Payment-Plan */
-.payment-plan {
+.payment-plan .icon {
     width: 160px;
     margin: 5px 8px;
     padding: 8px;
     border-radius: 5px 5px 5px 0;
     color: hsl(0, 10%, 90%);
     font-size: 8px;
-    display: inline;
+    display: inline-block;
     align-items: center;
     justify-content: space-between;
     font-weight: 300;
     text-transform: capitalize;
     
-}
-
-.payment-plan .icon {
-    color: #fff;
 }
 
 .payment-plan .icon p {
@@ -150,4 +146,5 @@
     hsl(264, 100%, 61%)
   );
   padding: 8px 16px;
+  text-transform: capitalize;
 }
