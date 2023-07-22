@@ -10,9 +10,9 @@
 /* Section: Main-Container */
 .main-container {
     background-image: linear-gradient(
-    to bottom right,
-    hsl(0, 0%, 99%),
-    hsl(270, 20%, 96%)
+        to bottom right,
+        hsl(0, 0%, 99%),
+        hsl(270, 20%, 96%)
     );
     width: 100%;
     position: relative;
@@ -23,3 +23,131 @@
 }
 
 /* Section: Mobile */
+.mobile {
+    border: 12px solid hsl(0, 0%, 100%);
+    background-color: hsl(270, 20%, 96%);
+    border-radius: 32px;
+    width: 240px;
+    margin-top: 30px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: 1px 1px 3px #949494;
+}
+
+.chat-box {
+
+    background-image: linear-gradient( to left, 
+    hsl(293, 100%, 63%), hsl(264, 100%, 61%) );
+    border-radius: 1.7rem 1.7rem 0.7rem 0.7rem;
+    color: hsl(276, 100%, 81%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 24px 16px 10px 16px;
+    margin-bottom: 10px;
+    position: relative;
+
+}
+
+.oval {
+    background-color: hsl(0, 0%, 100%);
+    width: 8rem;
+    height: 1.1rem;
+    border-radius: 0px 0px 20px 20px;
+    position: absolute;
+    top: 0;
+    left: 30%;
+}
+
+.chat-box img {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+    /* margin-left: 4px; */
+    border: 3px solid hsl(0, 0%, 100%); 
+    margin: 0 8px;
+    /* align-items: center; */
+}
+
+.chat-box div, h6 p {
+    margin: 0;
+}
+
+/* Section: Hamburger Menu */
+.hamburger-icon {
+    margin-left: auto;
+}
+
+.hamburger-icon i {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 200;
+    /* position: fixed; */
+    margin-top: 50px;
+    align-items: center;
+}
+
+/* Section: Vector */
+.outgoing-message {
+    background-color: hsl(206, 6%, 90%);
+    width: 160px;
+    margin: 5px 8px;
+    padding: 8px;
+    border-radius: 5px 5px 10px 0;
+    color: hsl(276, 55%, 52%);
+    font-size: 10px
+}
+
+.incoming-message {
+    background-color: hsl(0, 0%, 100%);
+    width: 160px;
+    margin: 5px 8px;
+    padding: 8px;
+    border-radius: 5px 5px 0 10px;
+    color: hsl(271, 15%, 43%);
+    font-size: 10px;
+    align-self: self-end;
+}
+
+#img-box {
+    background-color: hsl(270, 20%, 96%);
+    margin: 0;
+    text-align: right;
+}
+
+.incoming-message img {
+    width: 40px;
+    border-radius: 10px;
+}
+
+/* Section: Payment-Plan */
+.payment-plan {
+    width: 160px;
+    margin: 5px 8px;
+    padding: 8px;
+    border-radius: 5px 5px 5px 0;
+    color: hsl(0, 10%, 90%);
+    font-size: 8px;
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 300;
+    text-transform: capitalize;
+    
+}
+
+.payment-plan .icon {
+    color: #fff;
+}
+
+.payment-plan .icon p {
+    background-image: linear-gradient(to right,
+    hsl(293, 100%, 63%),
+    hsl(264, 100%, 61%)
+  );
+  padding: 8px 16px;
+}
